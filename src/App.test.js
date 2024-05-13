@@ -9,6 +9,6 @@ test("renders learn react link", () => {
 
 test("renders learn react link AGAIN", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByText(/hokey pokey/i);
   expect(linkElement).toBeInTheDocument();
 });
